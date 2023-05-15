@@ -8,7 +8,7 @@
 		"build": "prettier --write . && eslint --fix . --ext .js,.jsx,.ts,.tsx && tsc && vite build",
 		"preview": "vite preview",
 		"lint": "eslint --fix . --ext .js,.jsx,.ts,.tsx",
-		"format": ""
+		"format": "prettier --write . "
 	},
 	"dependencies": {
 		"eslint-config-prettier": "^8.8.0",
