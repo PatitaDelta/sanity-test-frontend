@@ -1,3 +1,7 @@
-export default function List(): any {
-	return <h1>List Component</h1>
+interface Props {
+	children?: JSX.Element
+}
+
+export default function List({ children }: Props): JSX.Element {
+	return <>{children ?? <p>No hay items en la lista</p>}</>
 }
